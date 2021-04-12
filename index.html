@@ -565,7 +565,7 @@ document.getElementById('join').addEventListener('click', e => {
         console.log(err);
       });
   else {
-    idError.textContent = 'That doesn\'t look like a chat ID.';
+    idError.textContent = 'ID is invalid or expired';
     idError.classList.remove('hidden');
   }
 });
