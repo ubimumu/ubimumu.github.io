@@ -1,0 +1,30 @@
+{
+  "name": "lilypad",
+  "version": "1.0.0",
+  "description": "Bypass link protectors and other disturbances with Lilypad.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/normanlol/lilypad.git"
+  },
+  "keywords": [
+    "bypass",
+    "link-bypass"
+  ],
+  "author": "normanlol",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/normanlol/lilypad/issues"
+  },
+  "homepage": "https://github.com/normanlol/lilypad#readme",
+  "dependencies": {
+    "@antiadmin/anticaptchaofficial": "^1.0.14",
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.2",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-stealth": "^2.7.6"
+  }
+}
