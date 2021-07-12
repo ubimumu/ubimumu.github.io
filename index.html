@@ -14,7 +14,6 @@
 <link href="./main.css" rel="stylesheet">
 </head>
 <body>
-<noscript>Your browser does not support JavaScript! Please enable Javascript.</noscript>
 <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
 <div class="app-header header-shadow">
 <div class="app-header__logo">
@@ -58,7 +57,7 @@
 </div>
 <ul class="header-menu nav">
 <li class="nav-item">
-<a href="javascript:void(0);" class="nav-link">
+<a href="soon" class="nav-link">
 <i class="nav-link-icon fa fa-database"> </i> Login
 </a>
 </li>
@@ -584,13 +583,13 @@ Application
 <div class="main-card mb-3 card">
 <div class="card-body">
 <h5 class="card-title">BYPASSER.CF</h5>
-<label for="" class="">Live Chat - Coming Soon</label>
+<label for="" class="">Create a Private Chat Room :</label>
 <div>
+<button id="create" onclick="uyar()" class="mt-1 btn btn-primary">Create a Room</button>
 <div class="input-group">
 <div class="input-group-prepend"></div>
 </div>
 <div class="input-group">
-<input type="text" id="" placeholder="Write a Message..." class="form-control">
 <div class="input-group-prepend"></div>
 </div>
 <div class="input-group">
@@ -599,12 +598,14 @@ Application
 <br>
 <div class="position-relative form-check"></div>
 <br>
+<label for="" class="">Write Room ID to join :</label>
 <div class="input-group">
-<button id="submit_btn" onclick="start()" class="mt-1 btn btn-primary">Send</button>
+<input type="text" id="" placeholder="Write Room ID..." class="form-control">
 <div class="input-group-prepend"></div>
 <div class="input-group-append"></div>
 </div>
-<small class="form-text text-muted">Live Chat is still under development! Currently not working.</small>
+<button id="submit_btn" onclick="uyar();" class="mt-1 btn btn-primary">Join</button>
+<small class="form-text text-muted">Beta Version 0.3.18218925</small>
 <a href="#" id="results"></a>
 <br>
 <div class="input-group">
@@ -728,7 +729,9 @@ Contact
 </div>
 </div>
 <script type="text/javascript" src="./assets/scripts/main.js"></script>
-<script type="text/javascript" src="main3.js"></script>
+<script type="text/javascript" src="konus.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+<noscript>Please active Javascript to use this website!</noscript>
 </body>
 </html>
 </html>
