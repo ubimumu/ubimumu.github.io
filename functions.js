@@ -1,3 +1,3 @@
 function uyar(){
-alert("Coming Soon!");
+alert("We have taken your submit request! Thank you.");
 }
