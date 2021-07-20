@@ -1,6 +1,5 @@
 async function bypass() {
                 document.getElementById("submit").disabled = true
-                document.getElementById("donthavetime").disabled = true
                 document.getElementById("success").style.display = "none";
                 document.getElementById("warning").style.display = "none";
                 document.getElementById("danger").style.display = "none";
@@ -25,7 +24,7 @@ async function bypass() {
                 }
                 catch {
                     document.getElementById("danger").style.display = "block";
-                    document.getElementById("danger").innerHTML = "API Error"
+                    document.getElementById("danger").innerHTML = "Error contacting API"
                 }
                 document.getElementById("submit").disabled = false
                 document.getElementById("encrypted_link").value = ''
