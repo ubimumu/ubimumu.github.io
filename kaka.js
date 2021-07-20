@@ -1,5 +1,6 @@
 async function bypass() {
                 document.getElementById("submit").disabled = true
+                document.getElementById("donthavetime").disabled = true
                 document.getElementById("success").style.display = "none";
                 document.getElementById("warning").style.display = "none";
                 document.getElementById("danger").style.display = "none";
