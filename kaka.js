@@ -24,7 +24,7 @@ async function bypass() {
                 }
                 catch {
                     document.getElementById("danger").style.display = "block";
-                    document.getElementById("danger").innerHTML = "Error contacting API"
+                    document.getElementById("danger").innerHTML = "API Error"
                 }
                 document.getElementById("submit").disabled = false
                 document.getElementById("encrypted_link").value = ''
