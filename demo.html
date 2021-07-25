@@ -699,14 +699,43 @@ Application
 <div class="col-md-6">
 <div class="main-card mb-3 card">
 <div class="card-body">
-<h5 class="card-title">Select Api :</h5>
+<h5 class="card-title">Add Balance :</h5>
 <div class="position-relative form-group">
 <div>
-<div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio" checked="" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio">Bypassvip Api (Super Fast & Stable)</label></div>
-<div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio2" name="customRadio" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio2">Thebypasser Api (Slow & Stable)</label></div>
-<div class="custom-radio custom-control"><input type="radio" id="exampleCustomRadio3" disabled="" class="custom-control-input"><label class="custom-control-label" for="exampleCustomRadio3">Bypassercf Api (Not Ready)</label></div>
-<small class="form-text text-muted">Public Api by Thebypasser & Bypassvip</small>
-<button id="submit" onclick="alert('Success!');" class="mt-1 btn btn-primary">Apply</button>
+<input type="text" name="name" id="full-name" placeholder="Card Number..." class="form-control" required="">
+<br>
+<input type="text" name="name" id="full-name" placeholder="Expiry Date.. (Example: 05/25)" class="form-control" required="">
+<br>
+<input type="text" name="name" id="full-name" placeholder="CVV (example: 639)" class="form-control" required="">
+<br>
+<label for="" class="">Payment Method :</label>
+<select name="select" id="supportType" class="form-control" required="">
+<option>PayPal (Global)</option>
+<option>VISA (Global)</option>
+<option>Coupon Code (Global)</option>
+<option disabled="">-------------------------</option>
+<option>İninal (Turkish)</option>
+<option>Papara (Turkish)</option>
+<option>Bank (Turkish)</option>
+<option disabled="">-------------------------</option>
+<option>Google Play Gift Card (Turkish)</option>
+<option>Steam Gift Card (Global)</option>
+</select>
+<br>
+<label for="" class="">Balance Amount :</label>
+<select name="select" id="supportType" class="form-control" required="">
+<option>1.00$</option>
+<option>3.00$</option>
+<option>5.00$</option>
+<option>10.00$</option>
+<option>50.00$</option>
+<option>100.00$</option>
+<option>200.00$</option>
+<option>500.00$</option>
+<option>750.00$</option>
+</select>
+<h5>!! %50 Extra Balance your first purchase !!</h5>
+<button id="submit" onclick="alert('Your request has been taken, it can be take up to 24 hours.');" class="mt-1 btn btn-primary">Add Balance</button>
 </div>
 </div>
 </div>
