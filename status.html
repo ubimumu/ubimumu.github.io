@@ -22,8 +22,9 @@ API Status {
   <script>
   function pingServer(){
   a = 5;
-  b = packet.send("https://bypasser.cf/check.php")
-  c = packet.send("https://bypassercf.cf/offlinecheck.php")
+  var packet = "/ping";
+  b = packet.send("https://bypasser.cf/check.php");
+  c = packet.send("https://bypassercf.cf/offlinecheck.php");
   
    if (a < 6){
         b();
