@@ -1,4 +1,7 @@
 <html>
+ <head>
+ </head>
+ <body>
 Server Status {
  <br>
  online
@@ -11,5 +14,19 @@ API Status {
  online
   <br>
 }
-
+ <br>
+ <br>
+<input type="button" onclick="pingServer();" value="Ping Server">
+  
+  <script>
+  function pingServer(){
+  a = 5;
+  
+   if (a < 6){
+    alert("Success!");
+    } else
+     alert("Invalid!");
+  }
+  </script>
+ </body>
 </html>
