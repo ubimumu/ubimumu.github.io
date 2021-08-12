@@ -29,4 +29,3 @@
                 document.getElementById("submit").disabled = false
                 document.getElementById("encrypted_link").value = ''
             }
-var beve = "https://bypasser.cf/vvvvvvvvvv92392323owssssssssss92";
