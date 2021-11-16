@@ -10,16 +10,6 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-        <script>
-            function changePage(page){
-                var i;
-                var x = document.getElementsByClassName("page");
-                for (i = 0; i < x.length; i++){
-                    x[i].style.display = "none";
-                }
-                document.getElementById(page).style.display = "inline-block";
-            }
-        </script>
     </head>
 
     <body style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://www.bypasser.cf/wall.jpg'); background-size:cover; overflow: hidden;">
@@ -159,6 +149,16 @@
             changePage("settings");
         };
     </script>
+<script>
+            function changePage(page){
+                var i;
+                var x = document.getElementsByClassName("page");
+                for (i = 0; i < x.length; i++){
+                    x[i].style.display = "none";
+                }
+                document.getElementById(page).style.display = "inline-block";
+            }
+        </script>
 <script type="text/javascript" src="j.js"></script>
 
 </html>
