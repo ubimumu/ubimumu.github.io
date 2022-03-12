@@ -568,7 +568,7 @@ Application
 
 <label for="" class="">Link :</label>
 <div class="input-group">
-<input type="text" id="input_link" placeholder="Paste your Linkvertise URL" type="text" class="form-control"></div>
+<input type="text" id="encrypted_link" placeholder="Paste your Linkvertise URL" type="text" class="form-control"></div>
 <div class="position-relative form-group">
 <div class="position-relative form-group"><label for="exampleSelect" class="">Proxy :</label><select name="select" id="serverSelect" class="form-control">
 <option>US Server</option>
@@ -590,11 +590,15 @@ Application
 <br>
 <font size="3" class="blink"> <b>Not Working? Try our</b> <a href="https://bypasser.cf/v2"><b>Linkvertise Bypasser V2</b></a>.</font>
 </div>
-<button id="submit_btn" onclick="start()" class="mt-1 btn btn-primary">Bypass</button>
+<button id="submit" onclick="bypass()" class="mt-1 btn btn-primary">Bypass</button>
 <small class="form-text text-muted">Result:</small>
 <h5 class="info-text">
 <div class="col-xl-9 mx-auto">
-<a href="#" id="results"></a>
+<div class="col-xl-9 mx-auto">
+<div class="alert alert-warning" role="alert" style="display: block;" id="warning">Bypasser Works Perfectly Right Now</div>
+<div class="alert alert-success" role="alert" style="display: none" id="success"></div>
+<div class="alert alert-danger" role="alert" style="display: none" id="danger"></div>
+</div>
 </div>
 </h5>
 </div>
@@ -796,7 +800,6 @@ Contact
 <script type="text/javascript" src="kaka.js"></script>
 <script type="text/javascript" src="31.js"></script>
 <script type="text/javascript" src="otuzbir.js"></script>
-<script type="text/javascript" src="j.js"></script>
 <script data-ad-client="ca-pub-6624184963798708" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <noscript>Please active Javascript to use this website!</noscript>
 </body>
