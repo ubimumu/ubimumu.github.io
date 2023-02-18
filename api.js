@@ -1,1 +1,1 @@
-console.log("Website - https://bypasser.cf/");
+console.log("Website - https://bypasser.fun/");
