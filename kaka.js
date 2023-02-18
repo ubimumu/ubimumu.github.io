@@ -1,4 +1,4 @@
-var _0xf80f = ["value", "input_link", "getElementById", "95884", "includes", "href", "results", "", "innerHTML", "You cant bypass this URL! Contact us at our discord server, bypasser.fun/discord", "168841", "submit_btn", "Bypassing...", "Bypassing", "dynamic", "&o=sharing", "%3D", "replace", "split", "pop", "dynamic?r=", "Bypass", "dynamic/?r=", "indexOf", "substring", "success", "destination", "Please write a Linkvertise URL or unknown error happend.", "then", "json", "https://bypass.pm/bypass?url="];
+var _0xf80f = ["value", "input_link", "getElementById", "95884", "includes", "href", "results", "", "innerHTML", "You cant bypass this URL! Contact us at our discord server, bypasser.fun/discord", "168841", "submit_btn", "Bypassing...", "Bypassing", "dynamic", "&o=sharing", "%3D", "replace", "split", "pop", "dynamic?r=", "Bypass", "dynamic/?r=", "indexOf", "substring", "success", "destination", "Unknown error happend! Try again?", "then", "json", "https://bypass.pm/bypass?url="];
 /**
  * @return {undefined}
  */
