@@ -1,0 +1,3 @@
+185.136.206.245 prod.gamev84.portalworldsgame.com
+185.136.206.245 prod.gamev85.portalworldsgame.com
+185.136.206.245 prod.gamev86.portalworldsgame.com
